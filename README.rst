@@ -1,7 +1,5 @@
-title:      Python Markdown Emoticons Extension
-
-Emoticons
-=========
+Python Markdown Emoticons Extension
+===================================
 
 Summary
 -------
@@ -51,7 +49,8 @@ The following options are provided to change the default behavior:
 
     Default: `'emoticons'`
 
-### Examples ###
+Examples
+--------
 
 For an example, let us suppose that smiley images are in the subdirectory
 `/images/` and end with `.png`
@@ -82,7 +81,9 @@ When used, the meta-data will override the settings provided through the
 This document:
 
     emoticons_base_url: http://example.com/
+	
     emoticons_file_extension:  .png
+	
     emoticons_html_class:
 
     Hello world :)
